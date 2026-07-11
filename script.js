@@ -434,7 +434,6 @@ function translatePage() {
     // -------------------------
     // GESETZE
     // -------------------------
-
     if(page.includes("gesetz")){
 
         const btn=document.querySelectorAll(".btn");
@@ -462,5 +461,34 @@ function translatePage() {
 
         }
 
+    }
+
+}
+
+if(deBtn){
+
+    deBtn.addEventListener("click",()=>{
+
+        language="de";
+        updateLanguage();
+        translatePage();
+
+    });
+
+}
+
+if(enBtn){
+
+    enBtn.addEventListener("click",()=>{
+
+        language="en";
+        updateLanguage();
+        translatePage();
+
+    });
+
+}
+
 updateLanguage();
 translatePage();
+    
