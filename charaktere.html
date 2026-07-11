@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DERBNES | Charaktere</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.characters{
+    max-width:1200px;
+    margin:100px auto;
+    padding:0 30px;
+}
+
+.characters h1{
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:80px;
+}
+
+.character{
+    display:flex;
+    align-items:center;
+    gap:60px;
+    margin-bottom:120px;
+}
+
+.character.reverse{
+    flex-direction:row-reverse;
+}
+
+.character img{
+    width:430px;
+    height:620px;
+    object-fit:cover;
+    border-radius:16px;
+    box-shadow:0 0 35px rgba(255,255,255,.08);
+}
+
+.character-text{
+    flex:1;
+}
+
+.character-text h2{
+    font-size:2.2rem;
+    margin-bottom:20px;
+}
+
+.character-text h3{
+    color:#bfbfbf;
+    margin-bottom:25px;
+    font-weight:400;
+}
+
+.character-text p{
+    line-height:1.9;
+    color:#d7d7d7;
+    font-size:1.05rem;
+}
+
+@media(max-width:900px){
+
+.character,
+.character.reverse{
+flex-direction:column;
+text-align:center;
+}
+
+.character img{
+width:100%;
+max-width:420px;
+height:auto;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+<nav><div class="logo"><a href="index.html">DERBNES</a></div><ul><li><a href="index.html">Home</a></li><li><a href="derbnes.html">Derbnes</a></li><li><a href="nerah.html">Nerah</a></li><li><a href="magie.html">Magie</a></li><li><a href="charaktere.html">Charaktere</a></li><li><a href="buecher.html">Bücher</a></li><li><a href="videos.html">Videos</a></li><li><a href="kontakt.html">Kontakt</a></li><li><a href="ueber.html">Über</a></li></ul><div class="language-switch"><button id="deBtn">DE</button><button id="enBtn">EN</button></div></nav>
+
+<section class="characters">
+
+<h1>DIE SCHÜLER</h1>
+
+<div class="character">
+
+<img src="bilder/hope.png" alt="Hope">
+<div class="character-text">
+
+<h2>Hope</h2>
+
+<h3>Die Trägerin der rosa Magie</h3>
+
+<p>
+
+Hope gehörte zu den ersten Schülerinnen, die Derbnes begegneten.
+Nicht Derbnes schenkte ihr Macht – sie öffnete lediglich den Kern ihrer Seele.
+
+Die rosa Magie entstand aus Hopes eigenem innersten Wesen.
+Mitgefühl, Hoffnung und die Fähigkeit, selbst in dunklen Zeiten Licht in anderen zu sehen, prägen ihren Charakter.
+
+Ihre Kraft ist ruhig, lebendig und voller Wärme.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="character reverse">
+
+<img src="bilder/kael.png" alt="Kael">
+
+<div class="character-text">
+
+<h2>Kael</h2>
+
+<h3>Der Träger der blauen Magie</h3>
+
+<p>
+
+Kael trägt die blaue Magie seines eigenen inneren Kerns.
+
+Seine Stärke liegt nicht in Lautstärke oder Wut, sondern in Ruhe,
+Disziplin und Loyalität.
+
+Wo andere aufgeben würden, bleibt Kael stehen.
+
+Seine Verbindung zu Hope macht beide stärker und zeigt,
+dass jede Magie einzigartig ist.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer><p>© 2026 DERBNES. Alle Rechte vorbehalten.</p><div class="footer-links"><a href="ueber.html">Über</a><a href="kontakt.html">Kontakt</a><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div></footer><script src="script.js"></script></body>
+</html>
